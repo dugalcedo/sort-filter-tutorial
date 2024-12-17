@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+#recipes {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.recipe {
+  padding: 0.5rem;
+  background-color: beige;
+
+  & img {
+    width: 100%;
+  }
+}
